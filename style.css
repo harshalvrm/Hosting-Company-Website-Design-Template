@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Bar */
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+width: 600px;
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+
+.intro-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardOne{
+    display: flex;
+}
+
+
+.cardTwo{
+    display: flex;
+}
+
+
+.cardThree{
+    display: flex;
+}
+
+.serviceCards{
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceCard{
+    display: flex;
+}
+
+/* .featureCards{
+
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* 
+.unlimited-hosting{
+    display: flex;
+    /* flex-direction: column; */
+
+
+
