@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 
@@ -10,6 +13,7 @@
 {
     display: flex;
     justify-content: space-between;
+    padding: 40px;
 }
 
 .menu{
@@ -17,8 +21,42 @@ width: 600px;
 display: flex;
 justify-content: space-around;
 list-style: none;
+
 }
 
+.menu-item{
+    font-family: 'Quicksand', sans-serif;
+    color: #707071;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    color: #000;
+}
+
+.register-btn{
+    /* padding: 20px; */
+}
+
+.register{
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(10,197,249);
+    cursor: pointer;
+}
+
+.register:hover{
+    color: #000;
+}
+
+
+/* Intro Cards */
 .intro-info{
     display: flex;
     flex-direction: column;
@@ -166,3 +204,4 @@ width: 300px;
 }
 
 
+/*** Learnt - linear gradient***/
