@@ -36,6 +36,20 @@ list-style: none;
 
 .cardThree{
     display: flex;
+    width:100%;
+}
+
+.cardThree-leftinfo{
+    width: 50%;
+}
+
+.cardThree-rightinfo{
+    width: 50%;
+}
+
+
+.cardThree-rightinfo img{
+    width: 350px;
 }
 
 .serviceCards{
@@ -47,15 +61,108 @@ list-style: none;
     display: flex;
 }
 
-/* .featureCards{
+/* Feature Card */
+.serviceCards{
+    display: flex;
 
+}
+
+.serviceCard{
+    display: flex;
+}
+
+.featureCards{
     display: flex;
     flex-wrap: wrap;
-} */
-/* 
-.unlimited-hosting{
-    display: flex;
-    /* flex-direction: column; */
 
+}
+
+.featureCard{
+    display: flex;
+    flex-direction: column;
+    width: 33%;  /* Used to bring all the 6 features in 2 rows. 100%/3 = 33.33%  */
+}
+
+.featureCard img{
+    width: 50px;
+}
+
+/* Pricing  */
+.pricingpanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 50px; */
+    background: rgb(10,197,249);
+    background: linear-gradient(90deg, rgba(10,197,249,1) 7%, rgba(6,129,239,1) 100%);
+    
+}
+
+.pricingcards{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px; */
+
+}
+
+.priceheading{
+    display: flex;
+    justify-content: center;
+}
+
+.starterPack, .BusinessPackage, .popularPackage
+{
+    background-color: #fff;   
+    /* padding: 10px;  */
+}
+
+.testimony{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.testHead{
+
+}
+
+.testdescription{
+
+}
+
+.testimonialCards{
+    display: flex;
+    justify-content: center;
+}
+
+.preFooter{
+    width: auto;
+    padding: 50px;
+    background: rgb(10,197,249);
+    background: linear-gradient(90deg, rgba(10,197,249,1) 7%, rgba(6,129,239,1) 100%);
+    display: flex;
+}
+
+.footer{
+    /* padding: 100px; */
+    width: auto;
+    display: flex;
+}
+
+
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section{
+width: 300px;
+}
+
+.mid-section{
+        display: flex;  
+}
 
 
