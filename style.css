@@ -87,6 +87,7 @@ list-style: none;
     font-size: 55px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
+    color: #1D2B4F;
 }
 
 .unlimited-hosting-info{
@@ -131,6 +132,7 @@ list-style: none;
     font-size: 55px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
+    color: #1D2B4F;
 }
 
 .best-quality-info{
@@ -178,13 +180,14 @@ list-style: none;
     font-size: 55px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
+    color: #1D2B4F;
 }
 
 .technical-support-info{
     width: 80%;
     margin: 30px 0;
     font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
     color: #989999;
 }
 
@@ -211,33 +214,75 @@ list-style: none;
 
 /** Service Section **/
 
+.service-info{
+    padding: 50px ;
+}
+
 
 .serviceCards{
     display: flex;
     flex-direction: column;
+    padding: 40px 0;
+    
 }
 
 .serviceCard{
     display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
 }
 
-/* Feature Card */
+.servicesHeading{
+    width: 50%;
+    font-size: 55px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #1D2B4F;
+    padding: 0;
+}
+
+.serviceHeadingDescription{
+    width: 50%;
+    width: 80%;
+    margin: 30px 0;
+    font-size: 17px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #989999;
+}
+
+        /* Feature Card */
 
 .featureCards{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 
 }
 
 .featureCard{
     display: flex;
     flex-direction: column;
-    width: 33%;  /* Used to bring all the 6 features in 2 rows. 100%/3 = 33.33%  */
+    align-items: flex-start;
+    margin: 10px 20px;
+    width: 30%;  /* Used to bring all the 6 features in 2 rows. 100%/3 = 33.33%  */
 }
 
 .featureCard img{
     width: 50px;
 }
+
+.featureCardHeading{
+    font-size: 25px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    padding: 30px 0;
+    color: #1D2B4F;
+}
+
+.featureCardDescription{
+    color: #989999;
+}
+
+
 
 /* Pricing  */
 .pricingpanel{
