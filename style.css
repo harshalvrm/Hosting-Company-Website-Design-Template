@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 
 *{
     margin: 0;
@@ -41,6 +41,8 @@ list-style: none;
 
 .register-btn{
     /* padding: 20px; */
+    padding: 1px;
+    background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
 }
 
 .register{
@@ -50,7 +52,7 @@ list-style: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: rgb(10,197,249);
+    background-color: #fff;
     cursor: pointer;
 }
 
@@ -63,7 +65,7 @@ list-style: none;
 .intro-info{
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 40px;
 }
 
     /** Card 1 Style **/
@@ -81,29 +83,34 @@ list-style: none;
 .unlimited-hosting{
     font-size: 55px;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .unlimited-hosting-info{
+    width: 80%;
     margin: 30px 0;
-    font-size: 15px;
+    font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #989999;
 }
 
 .chooseButton{
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 8px;
     font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     color: #fff;
-    background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    background: linear-gradient(135deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    cursor: pointer;
 }
 
+.chooseButton:hover{
+    opacity: 90%;
+}
 
-
-
-    /** Card 2 Style **/
+/** Card 2 Style **/
 .cardTwo{
     display: flex;
     padding: 80px 30px;
