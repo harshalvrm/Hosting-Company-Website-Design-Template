@@ -16,6 +16,7 @@
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px;
 }
 
@@ -39,25 +40,27 @@ list-style: none;
     color: #000;
 }
 
-.register-btn{
+.register{
     /* padding: 20px; */
     padding: 1px;
     background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    border-radius: 12px;
 }
 
-.register{
-    padding: 10px 20px 5px 10px;
-    border: 1px solid;
+.register-btn{
+    padding: 15px ;
+    border: none;
     border-radius: 10px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     background-color: #fff;
     cursor: pointer;
 }
 
-.register:hover{
+.register-btn:hover{
     color: #000;
+    opacity: 0.9;
 }
 
 
@@ -110,16 +113,57 @@ list-style: none;
     opacity: 90%;
 }
 
+
+
 /** Card 2 Style **/
 .cardTwo{
+    width: auto;
     display: flex;
-    padding: 80px 30px;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+.cardTwo-rightinfo{
+    width: 50% ; 
+}
+
+.best-quality{
+    font-size: 55px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+
+.best-quality-info{
+    width: 80%;
+    margin: 30px 0;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #989999;
+}
+
+.readMore1{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    cursor: pointer;
+}
+
+.readMore1:hover{
+    opacity: 90%;
 }
 
 
+/** Card 3 Style **/
+
 .cardThree{
     display: flex;
-    width:100%;
+    justify-content: space-between;
+    padding: 20px 30px;
 }
 
 .cardThree-leftinfo{
@@ -130,10 +174,43 @@ list-style: none;
     width: 50%;
 }
 
+.technical-support{
+    font-size: 55px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+
+.technical-support-info{
+    width: 80%;
+    margin: 30px 0;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #989999;
+}
 
 .cardThree-rightinfo img{
     width: 350px;
 }
+
+.readMore2{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    cursor: pointer;
+}
+
+.readMore2:hover{
+    opacity: 90%;
+}
+
+
+/** Service Section **/
+
 
 .serviceCards{
     display: flex;
@@ -145,14 +222,6 @@ list-style: none;
 }
 
 /* Feature Card */
-.serviceCards{
-    display: flex;
-
-}
-
-.serviceCard{
-    display: flex;
-}
 
 .featureCards{
     display: flex;
