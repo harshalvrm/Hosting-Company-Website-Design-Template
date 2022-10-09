@@ -250,7 +250,7 @@ list-style: none;
     color: #989999;
 }
 
-        /* Feature Card */
+        /*** Feature Card ***/
 
 .featureCards{
     display: flex;
@@ -283,15 +283,30 @@ list-style: none;
 }
 
 
-
 /* Pricing  */
+
+.starterPack, .BusinessPackage, .popularPackage
+{
+    background-color: #fff;   
+    width: 25%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+
+.pricing-section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(10,197,249);
+    background: linear-gradient(135deg, rgba(10,197,249,1) 7%, rgba(6,129,239,1) 100%);
+}
+
 .pricingpanel{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding: 50px; */
-    background: rgb(10,197,249);
-    background: linear-gradient(90deg, rgba(10,197,249,1) 7%, rgba(6,129,239,1) 100%);
     
 }
 
@@ -307,11 +322,79 @@ list-style: none;
     justify-content: center;
 }
 
-.starterPack, .BusinessPackage, .popularPackage
-{
-    background-color: #fff;   
-    /* padding: 10px;  */
+.priceheading h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    margin: 50px 0;
 }
+
+.priceCardFeature{
+    text-decoration: none;
+    padding: 50px 10px ;
+}
+
+.pricecardheading{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.priceCardDescription{
+    color: #A3A8B7;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.features{
+    list-style: none;
+    color: #1D2B4F;
+    font-size: 20px;
+}
+
+/* Checkbox image */
+.features img{
+width: 20px;
+}
+
+.packPrice{
+    font-size: 50px;
+    color: #1d2c50;
+}
+
+.packPrice span{
+    color: #798196 ;
+}
+
+.cancel{
+    color: #798196 ;
+}
+
+.planChoiceOuterLine{
+    width: fit-content;
+    margin: 30px 0;
+    padding: 1px;
+    background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    border-radius: 12px;
+}
+
+.planChoice{
+    padding: 15px ;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*** Testimonial Section ***/
 
 .testimony{
     width: auto;
@@ -363,4 +446,6 @@ width: 300px;
 }
 
 
-/*** Learnt - linear gradient***/
+/* what we learnt */
+ /* Learnt - linear gradient */
+/* border color linear linearGradient */
