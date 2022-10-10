@@ -45,6 +45,7 @@ list-style: none;
     padding: 1px;
     background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
     border-radius: 12px;
+    
 }
 
 .register-btn{
@@ -53,14 +54,21 @@ list-style: none;
     border-radius: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 900;
     background-color: #fff;
     cursor: pointer;
+    transition: all 0.6s;
+    color: rgba(8, 184, 247);
+
+
 }
 
 .register-btn:hover{
     color: #000;
     opacity: 0.9;
+    background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgb(7, 114, 180) 100%);
+    color: #fff;
+    
 }
 
 
@@ -286,12 +294,28 @@ list-style: none;
 /* Pricing  */
 
 .starterPack, .BusinessPackage, .popularPackage
-{
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -300px;
     background-color: #fff;   
-    width: 25%;
+    width: 23%;
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+.starterPack:hover, .BusinessPackage:hover, .popularPackage:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+
+.pricingcards{
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -310,16 +334,10 @@ list-style: none;
     
 }
 
-.pricingcards{
-    display: flex;
-    justify-content: space-around;
-    /* padding: 20px; */
-
-}
-
 .priceheading{
     display: flex;
     justify-content: center;
+ 
 }
 
 .priceheading h1{
@@ -331,25 +349,31 @@ list-style: none;
 
 .priceCardFeature{
     text-decoration: none;
-    padding: 50px 10px ;
+    padding: 30px 10px ;
 }
 
 .pricecardheading{
     margin: 10px 0;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1D2B4F;
 }
 
 .priceCardDescription{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #A3A8B7;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .features{
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
     list-style: none;
     color: #1D2B4F;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 30px 0;
 }
 
 /* Checkbox image */
@@ -358,8 +382,10 @@ width: 20px;
 }
 
 .packPrice{
-    font-size: 50px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: 30px;
     color: #1d2c50;
+    margin-bottom: 30px;
 }
 
 .packPrice span{
@@ -367,7 +393,7 @@ width: 20px;
 }
 
 .cancel{
-    color: #798196 ;
+    color: #798196;
 }
 
 .planChoiceOuterLine{
@@ -383,12 +409,38 @@ width: 20px;
     border: none;
     border-radius: 10px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 900;
     background-color: #fff;
     cursor: pointer;
+    color:#08A0F4;
 }
 
+.planChoice:hover{
+    background: linear-gradient(90deg, rgba(8, 184, 247) 7%, rgba(7, 151, 242) 100%);
+    color: #fff;
+    transition: all 0.6s;
+}
+
+.pricecardheading, .priceCardDescription{
+   
+}
+
+
+/* .featureHover{
+    
+    background-color: #353535;
+    color: #fff;
+
+} */
+
+/* .planChoice:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+ */
 
 
 
@@ -449,3 +501,6 @@ width: 300px;
 /* what we learnt */
  /* Learnt - linear gradient */
 /* border color linear linearGradient */
+/* Add linaer gradinet to text */
+
+/* 5HOURS +1 */
