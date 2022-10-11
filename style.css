@@ -451,6 +451,7 @@ width: 20px;
     align-items: center;
     justify-content: center;
     padding: 60px;
+    margin: 60px 0;
 }
 
 .testHead{
@@ -465,14 +466,14 @@ font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
 
 .testHead{
-    font-size: 50px;
-    
+    font-size: 45px;   
 }
 
 .testdescription{
-    color: #798196;
-    padding: 30px;
-    font-size: 12px;
+    color: #798196e5;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: 14 px;
+    margin: 30px 0;
 }
 
 .testimonialCards{
@@ -482,13 +483,52 @@ font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
 
 .testimonialCard{
-    width: 600px;
+    display: flex;
+    flex-direction: column;
 }
+
+.testimonialBlock{
+    border: solid 0.1rem;
+    border-color: #79819667;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #1d2c50 1;
+    
+}
+
+.testimonialBlock, .credits{
+   width: 500px;
+   margin: 20px;
+   font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+   color: #1d2c50;t
+}
+
+.testimonialBlock:hover{
+    transition: 0.4s;
+    scale: 1.03;
+    
+}
+
 
 .testCardDescription{
-    color: #798196;
+    padding: 20px;
 }
 
+.testCardDescription h4{
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #798196;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.credits{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creditDetails{
+    margin-left: 20px;
+}
 
 
 
@@ -526,4 +566,4 @@ font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 /* border color linear linearGradient */
 /* Add linaer gradinet to text */
 
-/* 5HOURS +1 */
+/* 5HOURS +1 + 2*/
