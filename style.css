@@ -370,7 +370,7 @@ list-style: none;
 .features{
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
     list-style: none;
-    color: #1D2B4F;
+    color: #798196;
     font-size: 15px;
     font-weight: 500;
     margin: 30px 0;
@@ -442,10 +442,6 @@ width: 20px;
   }
  */
 
-
-
-
-
 /*** Testimonial Section ***/
 
 .testimony{
@@ -453,21 +449,48 @@ width: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
+    padding: 60px;
 }
 
 .testHead{
+    color: #1d2c50;
+}
 
+.testimonialHeading{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+.testHead{
+    font-size: 50px;
+    
 }
 
 .testdescription{
-
+    color: #798196;
+    padding: 30px;
+    font-size: 12px;
 }
 
 .testimonialCards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
+.testimonialCard{
+    width: 600px;
+}
+
+.testCardDescription{
+    color: #798196;
+}
+
+
+
 
 .preFooter{
     width: auto;
@@ -490,11 +513,11 @@ width: 20px;
 }
 
 .left-section{
-width: 300px;
+    width: 300px;
 }
 
 .mid-section{
-        display: flex;  
+    display: flex;  
 }
 
 
