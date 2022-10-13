@@ -1,0 +1,29 @@
+* ----------------MEDIA QUERIES--------------------- */
+
+@media screen and (max-width: 1346px) {
+    .main-div {
+      width: 100%;
+    }
+}
+
+  
+@media screen and (max-width: 1088px) {
+   .menu{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 50px;
+        
+        
+    }
+
+    .menu-item{
+        font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+        color: #707071;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 50px;
+        
+    }
+
+
+}
