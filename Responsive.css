@@ -7,13 +7,31 @@
 }
 
   
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 1024px) {
    .menu{
-        display: flex;
-        justify-content: space-around;
         margin-right: 50px;
+    }
+
+    .menu-item{
+        font-size: 12px;
+        font-weight: 500;
+    }
+      
+    .register{
+        padding: 0.5px;
+        margin-right: 800px;
+        border-radius: 12px;
         
-        
+    }
+
+    .register-btn{
+        padding: 10px ;
+        font-size: 12px;
+        font-weight: 900;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.6s;
+        color: rgba(8, 184, 247);
     }
 
     .menu-item{
@@ -25,5 +43,18 @@
         
     }
 
+    .testdescription{
+        width: 500px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+
+@media screen and (max-width: 768px) {
 
 }
