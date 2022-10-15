@@ -9,7 +9,7 @@
   
 @media screen and (max-width: 1024px) {
    .menu{
-        margin-right: 50px;
+    margin-left: 80px;
     }
 
     .menu-item{
@@ -25,21 +25,19 @@
     }
 
     .register-btn{
-        padding: 10px ;
+        padding: 10px;
         font-size: 12px;
-        font-weight: 900;
-        background-color: #fff;
-        cursor: pointer;
+        font-weight: 800;
         transition: all 0.6s;
-        color: rgba(8, 184, 247);
+        white-space: nowrap
     }
 
     .menu-item{
         font-family: 'Verdana', Geneva, Tahoma, sans-serif;
-        color: #707071;
         font-size: 15px;
         cursor: pointer;
         margin-right: 50px;
+        white-space: nowrap
         
     }
 
@@ -47,7 +45,25 @@
         width: 500px;
     }
 
+    .unlimited-hosting{
+        font-size: 40px;
+    }
 
+    
+    .unlimited-hosting-info{
+    font-size: 14px;
+    }
+
+    .chooseButton{
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .CardOne-rightinfo img{
+        width: 90%;
+        float: right;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
