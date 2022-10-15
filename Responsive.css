@@ -16,6 +16,11 @@
         font-size: 12px;
         font-weight: 500;
     }
+
+    .logo img{
+        width: 100px
+        ;
+    }
       
     .register{
         padding: 0.5px;
@@ -40,6 +45,17 @@
         white-space: nowrap
         
     }
+    /** Card 1 Style **/
+
+    .cardOne{
+        display: flex;
+        padding: 0px;
+    }
+
+    .CardOne-rightinfo img{
+        width: 90%;
+        
+    }
 
     .testdescription{
         width: 500px;
@@ -60,7 +76,54 @@
         font-size: 15px;
     }
 
-    .CardOne-rightinfo img{
+    
+    /** Card 2 Style **/
+
+    .cardTwo{
+        display: flex;
+        padding: 0px;
+    }
+
+    .cardTwo-leftinfo img{
+        width: 90%;
+        
+    }
+
+    .best-quality{
+        font-size: 40px;
+    }
+
+    .best-quality-info{
+        font-size: 14px;
+    }
+
+    .readMore1{
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    /** Card 3 Style **/
+    .cardTwo{
+        display: flex;
+        padding: 0px;
+    }
+
+    .technical-support{
+        font-size: 40px;
+    }
+
+    .technical-support-info{
+        font-size: 14px;
+    }
+
+    .readMore2{
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .cardThree-rightinfo img{
         width: 90%;
         float: right;
     }
