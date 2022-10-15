@@ -127,6 +127,104 @@
         width: 90%;
         float: right;
     }
+
+    /** Service Section **/
+
+    
+    .serviceCard{
+        display: flex;
+    }
+
+    .servicesHeading{
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .serviceHeadingDescription{
+        font-size: 14px;
+        width: 40%;
+        
+    }
+    /*** Feature Card ***/
+    .featureCards{      
+        justify-content: space-around;
+    }
+
+    .featureCard{
+        margin: 20px 10;
+    }
+    
+    /*** Pricing  ****/
+
+    .starterPack, .BusinessPackage, .popularPackage
+    {    
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .pricecardheading{
+        margin: 8px 0;
+        font-size: 20px;
+    }
+
+    .priceCardDescription{
+        font-size: 12px;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .features{
+        font-size: 12px;
+        margin: 20px 0;
+    }
+
+    .packPrice{
+        font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .cancel{
+        font-size: 12px;
+    }
+
+    .planChoiceOuterLine{
+        margin: 20px 0;
+    }
+
+    .planChoice{
+        padding: 12px ;
+        font-size: 15px;
+        font-weight: 900;
+        background-color: #fff;
+        cursor: pointer;
+        color:#08A0F4;
+    }
+    
+    /*** Testimonial Section ***/
+
+    .testHead{
+        font-size: 40px;   
+    }
+
+    .testdescription{
+        font-size: 10 px;
+    }
+
+    .testimonialCards{
+        display: flex;
+        justify-content:center;        
+    }
+
+    .testCardDescription h4{
+        font-size: 12px;
+    }
+
+    .creditDetails{
+        font-size: 15px;
+    }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
