@@ -360,7 +360,55 @@
         align-items: center;
         width: 100%;
     }
+
+    /** Service Section **/
+    .serviceCard{
+     align-items: center;
+    }
+
+    .servicesHeading{
+        font-size: 30px;
+        width: 400px;
+    }
+
+    /*** Pricing  ****/
+    
+    .packPrice{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /*** Testimonial Section ***/
+    .testHead{
+        font-size: 30px;   
+    }
+
+    /*** Pre - Footer Section***/
+    .preFooter{
+        flex-direction: column;
+        align-items: space-around;
+        padding: 50px;
+    }
+
+    .preFooterHeading{
+        width:fit-content;
+        font-size: 40px;
+        font-weight: 500;  
+    }    
+
+    .preFooterDescription{
+        width: fit-content;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .preFooterRegister{
+        float: left;
+    }
+
 }
+
 
 
 @media screen and (max-width: 768px) {
