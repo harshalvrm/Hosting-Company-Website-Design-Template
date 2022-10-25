@@ -403,14 +403,26 @@
         margin-bottom: 50px;
     }
 
-    .preFooterRegister{
-        float: left;
+    /*** Footer Section Starts ***/
+
+    .footer{
+        padding: 30px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
     }
+
+    .left-section-description{
+        width: 80%;
+        font-size: 12px;    
+    }
+
 
 }
 
 
 
 @media screen and (max-width: 768px) {
+    
 
 }
